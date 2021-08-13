@@ -6,15 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Sarpanch:wght@900&family=VT323&display=swap" rel="stylesheet"> 
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="case">
-            <div class="quarter-circle green"></div>
-            <div class="quarter-circle red"></div>
-            <div class="quarter-circle yellow"></div>
-            <div class="quarter-circle blue"></div>
-            <div class="center">Simon</div>
+            <div class="quarter-circle" id="green"></div>
+            <div class="quarter-circle" id="red"></div>
+            <div class="quarter-circle" id="yellow"></div>
+            <div class="quarter-circle" id="blue"></div>
+            <div class="center">
+                <h1>simon</h1>
+                <div class="row">
+                    <button class="btn" id="start" aria-label="start"></button>
+                    <p class="label">Start</p>
+                </div>
+                <div class="row"></div>
+            </div>
         </div>
     </div>
 </body>
